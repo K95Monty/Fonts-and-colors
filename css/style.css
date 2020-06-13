@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700%7CRoboto:300,400,500,700,900);
+
+
+/* colours 
+
+light blue #CFDBD5 
+very light blue E8EDDF
+yellow #F5CB5C
+black 242423
+jet 333533
+blue - 333533
+easy blue -#6B72E1
+#F7F9FC background colour - very light blue
+#575F7D body text colour greyish blue
+#575F7D h1 same for headings?
+#7ECE90 h2 heading to stand out
+*/
+
+body {
+	font-family: 'Lora', serif;
+	background-color: #959aea;
+	color: #333533;
+	font-size: 1em;
+}
+
+h1, h2 {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	color: #575F7D;
+	font-size: 2em;
+	font-weight: 900;
+}
+
+h2 {
+	color: #7ECE90;
+	font-size: 1.5em;
+}
+
+a {
+	color: rgb(53, 104, 73);
+	font-size: 1.5em;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+a:hover {
+	color: black;
+}
+
+#pro-img {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.white-card {
+	background: white;
+	padding: 30px;
+	margin: 20px 0px;
+	border-radius: 5px;
+	text-align: center;
+	box-shadow: 0px 2px  20px rgba(0, 0, 0, 0.4);
+				
+}
+
+.container {
+	max-width: 700px;
+	margin: 40px auto;
+}
+
+.list {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.list li {
+	display: inline;
+	padding: 10px;
+}
+
+.list i {
+	font-size: 2.5em;
+	color: rgb(200, 200, 200);
+}
+
+.list i:hover {
+	color: black;
+}
+
+#intro-card p {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+@media max-width: (960px){
+	.container {
+		width: 700px;
+	}
+}
+
+@media max-width: (720px){
+	.container {
+		width: 500px;
+	}
+}
+
+@media max-width: (540px){
+	.container {
+		width: 300px;
+	}
+}
